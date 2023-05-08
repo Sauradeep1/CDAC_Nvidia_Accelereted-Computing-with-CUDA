@@ -8,3 +8,11 @@ The betterment in the speed of operations in RAPIDS is due to GPU acceleration. 
 What is RAPIDS?
 RAPIDS is a suite of open-source software that runs on GPUs and allows users to run end-to-end data science pipelines at high speed.
 Now, one may get deterred by the thought that one needs to get accustomed to the syntax of new libraries in trade for increased speed. But worry not! NVIDIA has been kind enough to take care of it. Most of the RAPIDS libraries mirror the APIs/functions of the Python libraries, making the shift from Python modules to GPU-backed RAPIDS relatively smooth. 
+
+Task  ------------------------  Python Library  ---> RAPIDS Library
+
+Mathematical/Matrix Operations	--->NumPy	------->CuPy
+
+Data Handling	---------------------> Pandas	----->CuDF
+
+ML Model Building	----------------->Sklearn ------>	CuML
