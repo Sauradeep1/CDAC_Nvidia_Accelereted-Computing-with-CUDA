@@ -13,4 +13,12 @@ Session 3 - Streaming & Visual Profiling
 
 2. Accelearated Computing with CUDA in Python : 
 
-3. 
+Introduction to CUDA Python with Numba
+
+Custom CUDA Kernels in Python with Numba
+
+Multidimensional Grids and Shared Memory for CUDA Python with Numba
+
+3. Accelerated Data Science with RAPIDS- CuDF, CuPy, CuML for CUDA
+
+4. 
