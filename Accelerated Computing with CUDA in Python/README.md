@@ -4,6 +4,12 @@ This course is divided into **three** main sections:
 - _Custom CUDA Kernels in Python with Numba_
 - _Multidimensional Grids and Shared Memory for CUDA Python with Numba_
 
+# Introduction to Numba
+
+The **[CUDA](https://en.wikipedia.org/wiki/CUDA)** compute platform enables remarkable application acceleration by enabling developers to execute code in a massively parallel fashion on NVIDA GPUs.
+
+**[Numba](http://numba.pydata.org/)** is a just-in-time Python function compiler that exposes a simple interface for accelerating numerically-focused Python functions. Numba is a very attractive option for Python programmers wishing to GPU accelerate their applications without needing to write C/C++ code, especially for developers already performing computationally heavy operations on NumPy arrays. Numba can be used to accelerate Python functions for the CPU, as well as for NVIDIA GPUs. **The focus of this course is the fundamental techniques needed to GPU-accelerate Python applications using Numba.**
+
 ### Introduction to CUDA Python with Numba
 
 In this first section you will learn first how to use Numba to compile functions for the CPU, and will receive an introduction to the inner workings of the Numba compiler. You will then proceed to learn how to GPU accelerate element-wise NumPy array functions, along with some techniques for efficiently moving data between a CPU host and GPU device.
