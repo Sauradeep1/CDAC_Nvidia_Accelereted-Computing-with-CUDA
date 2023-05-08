@@ -1,1 +1,1 @@
-This contains the 
+This contains the introductory codes for getting started with working with CUDA in C. In particular how to do simple operations in GPU , how to synchronize GPU & CPU, introduces the Grid & strides useful for Looping 
