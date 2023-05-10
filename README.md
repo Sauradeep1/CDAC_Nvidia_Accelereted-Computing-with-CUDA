@@ -21,4 +21,6 @@ Multidimensional Grids and Shared Memory for CUDA Python with Numba
 
 3. Accelerated Data Science with RAPIDS- CuDF, CuPy, CuML for CUDA
 
-4. 
+4. Data Engineering with Dask, NV Tabular
+
+5. Image Classification task on ASL data using CNN , leveraging Feature Augmentation
